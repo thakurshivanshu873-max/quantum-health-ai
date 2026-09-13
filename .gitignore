@@ -1,11 +1,31 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 .venv/
 venv/
 env/
-node_modules/
-frontend/node_modules/
-frontend/dist/
+
+# Environment
 .env
 .env.*
 !.env.example
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Vite
+frontend/dist/
+frontend/.vite/
+
+# Python cache / tooling
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
